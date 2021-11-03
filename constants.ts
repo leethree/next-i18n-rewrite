@@ -25,7 +25,7 @@ export const DICTIONARIES: Record<string, Dictionary> = {
     subtitle: 'Texte localisé basé sur les en-têtes de géolocalisation',
     link: 'Voir la documentation des en-têtes'
   },
-  'cn': {
+  'zh': {
     title: 'i18n 示例',
     greet: '你好!',
     subtitle: '基于地理位置标题的本地化文本',

@@ -26,7 +26,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps<unknown, Params> = async ({
-  params: { country, locale },
+  params: { country },
+  locale
 }) => {
   // Get dictionary
   const dictionary = await api.dictionaries.fetch(locale)
